@@ -162,6 +162,10 @@ nav li a:hover{
 .li5:hover{
     border-radius:10px ;
 }
+.index{
+    display: flex;
+    align-items: center;
+}
 
 .index:hover{
     color: #b4b4b4;
