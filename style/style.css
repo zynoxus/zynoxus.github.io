@@ -6,6 +6,7 @@ body{
     padding: 0%;
     background-color: #dbdbdb;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .social_bar {
@@ -39,6 +40,18 @@ span {
    opacity: 0,5;
    color: blueviolet;
 }
+
+.topbar-link{
+    opacity: 0,5;
+    
+    color: white;
+    
+ }
+
+.topbar-link:hover{
+    opacity: 0,5;
+    color: blueviolet;
+ }
 
 .container{
     width: 80%;
@@ -219,8 +232,10 @@ main{
 
 
 .rsm{
-    width: 100%;
+    width: auto;
     height: auto;
+    max-width: 514px;
+    max-height: 514px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
