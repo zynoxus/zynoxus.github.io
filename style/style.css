@@ -2,9 +2,10 @@
     box-sizing: border-box;
 }
 body{
+    
     margin: 0 ;
     padding: 0%;
-    background-color: #dbdbdb;
+    background-color: #23486A;
     font-family: 'Roboto', sans-serif;
     
 }
@@ -75,7 +76,7 @@ header{
 section{
     width: 100%;
     height:100%;
-    background-color: #f1f1f1;
+    background-color: #F2EFE7;
     border-top-left-radius:10px ;
     border-top-right-radius: 10px;
     box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
@@ -86,8 +87,10 @@ nav{
     width: 20%;
     float: left;
     height: 100%;
+    
     box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
     transition: 2s padding ;
+    background-color: #4C7B8B;
  
 
 
@@ -108,7 +111,7 @@ nav ul li{
     list-style-type: none;
     text-align: left;
     transition: 1s padding ;
-    
+    padding: 5px;
     
 
 }
@@ -126,14 +129,16 @@ nav li a{
     height: 50px;
     line-height: 50px;
     text-decoration: none;
-    color:black;
+    background-color:#EFB036;
+    color: black;
     border-bottom: 1px solid #b4b4b4;
     padding-left: 20px;
     display: block;
     box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
     margin: 10%;
-    
-
+    transition: 1.5s padding ;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 
 }
 
@@ -142,6 +147,8 @@ nav li a:hover{
     color: #b4b4b4;
     background-color: black;
     text-align: left center;
+    -webkit-transform: translate(0px, -10px) scale(1.2);
+          transform: translate(0px, -10px) scale(1.2);
 
 }
 
@@ -168,7 +175,7 @@ nav li a:hover{
 }
 
 .index:hover{
-    color: #b4b4b4;
+    color: blueviolet;
     background-color: rgb(65, 64, 64);
     
     border-bottom-right-radius:10px;
@@ -205,7 +212,7 @@ main{
     padding: 1%;
 
 
-    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.925);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -223,7 +230,7 @@ main{
     padding: 1%;
 
 
-    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.925);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -233,13 +240,30 @@ main{
 
  }
 
+ .içerik_sayfası2{
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    padding: 1%;
 
+
+    box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.925);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #b6adada6;
+
+
+ }
 
 .rsm{
-    width: auto;
+    width: 100%;
     height: auto;
     max-width: 514px;
-    max-height: 514px;
+    max-height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
